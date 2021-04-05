@@ -116,7 +116,7 @@ section {
     position: absolute;
     z-index: 2;
     border-radius: 15px;
-    bottom: 27em;
+    bottom: 26em;
     left: 75em;
     filter: drop-shadow(0px 10px 10px hsl(217, 19%, 94%));
 }
