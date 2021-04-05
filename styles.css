@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(210, 46%, 95%);
+    color: hsl(217, 19%, 35%);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: hsl(210, 46%, 95%);
+}
+
+section {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 335px;
+    border-radius: 10px;
+}
+
+.img-wrap {
+    width: 40%;
+    background-image: url('images/drawers.jpg');
+    height: 100%;
+    background-size: 122%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.article-wrap {
+    width: 60%;
+}
+
+.article-container {
+    padding: 0px 45px;
+    color: hsl(214, 17%, 51%);
+}
+
+.article-container h1 {
+    font-size: 1.4em;
+    color: hsl(217, 19%, 35%);
+    margin: 0 auto;
+}
+
+.article-container p {
+    font-size: 0.9em;
+    letter-spacing: 0.8px;
+    margin-bottom: 25px;
+}
+
+.author-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.author-avatar {
+    width: 10%;
+    display: flex;
+}
+
+.author-avatar img {
+    border-radius: 100px;
+    max-width: 100%;
+    height: auto;
+}
+
+.author-details p {
+    margin: 2px 0 2px 20px;
+}
+
+.author-name {
+    color: hsl(217, 19%, 35%);
+}
+
+.social-share-button {
+    margin-left: 42%;
+}
+
+.share-arrow-desktop, .share-arrow-mobile {
+    border: 0px;
+    padding: 8px;
+    border-radius: 50px;
+    background-color: hsl(210, 46%, 95%);
+    cursor: pointer;
+}
+
+.share-arrow-desktop svg, .share-arrow-mobile svg {
+    fill: #6E8098;
+}
+
+.share-arrow-desktop:focus, .share-arrow-mobile:focus {
+    outline: 0px;
+    background-color: hsl(214, 17%, 51%);
+}
+
+.share-arrow-desktop:focus svg, .share-arrow-mobile:focus svg {
+    fill:hsl(210, 46%, 95%);
+}
+
+.social-share-pop {
+    background-color: hsl(217, 19%, 35%);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 250px;
+    position: absolute;
+    z-index: 2;
+    border-radius: 15px;
+    bottom: 24em;
+    left: 60.5em;
+    filter: drop-shadow(0px 10px 10px hsl(217, 19%, 75%));
+}
+
+.social-share-pop p, .social-share-pop-mobile p {
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    margin: 20px 15px;
+    color: hsl(210, 46%, 95%);
+}
+
+.social-svg-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.social-svg-group svg {
+    margin-right: 10px;
+}
+
+.arrow-down {
+    width: 0px;
+    height: 0px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid hsl(217, 19%, 35%);
+    position: absolute;
+    z-index: 2;
+    bottom: -1em;
+    right: 7.2em;
+}
+
+.social-share-pop-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    section {
+        flex-direction: column;
+        width: 335px;
+        height: auto;
+    }
+
+    .img-wrap {
+        width: 100%;
+        height: 227px;
+        background-size: 100%;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+
+    .article-wrap {
+        width: initial;
+    }
+
+    .article-container {
+        padding: 0px 30px;
+    }
+
+    .article-container h1 {
+        font-size: 1.13em;
+        margin: 30px auto 15px auto;
+    }
+
+    .article-container p {
+        font-size: 0.8em;
+    }
+
+    .author-container {
+        margin-bottom: 20px;
+    }
+
+    .author-avatar {
+        width: 18%;
+    }
+
+    .social-share-button {
+        margin-left: 15%;
+    }
+
+    .social-share-pop-mobile {
+        background-color: hsl(217, 19%, 35%);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        z-index: 2;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .arrow-down {
+        display: none;
+    }
+}
