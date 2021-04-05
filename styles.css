@@ -116,9 +116,9 @@ section {
     position: absolute;
     z-index: 2;
     border-radius: 15px;
-    bottom: 24em;
-    left: 60.5em;
-    filter: drop-shadow(0px 10px 10px hsl(217, 19%, 75%));
+    bottom: 27em;
+    left: 75em;
+    filter: drop-shadow(0px 10px 10px hsl(217, 19%, 94%));
 }
 
 .social-share-pop p, .social-share-pop-mobile p {
