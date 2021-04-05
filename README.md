@@ -24,7 +24,6 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/BootstrapKat/article-preview-component-master](https://github.com/BootstrapKat/article-preview-component-master)
-- Live Site URL: [https://bootstrapkat.github.io/article-preview-component-master/](https://bootstrapkat.github.io/article-preview-component-master/)
 
 ## My process
 
